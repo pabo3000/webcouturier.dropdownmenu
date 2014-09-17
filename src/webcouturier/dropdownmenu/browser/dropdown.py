@@ -132,7 +132,7 @@ class DropdownMenuViewlet(common.GlobalSectionsViewlet):
             # get path for current tab's object
             try:
                 # we are in Plone > 3.0.x
-                tabPath = tabUrl.split(self.site_url)[-1]
+                tabPath = tabUrl.split(self.portal_state.navigation_root_url())[-1]
             except AttributeError:
                 # we are in Plone 3.0.x world
                 tabPath = tabUrl.split(self.portal_url)[-1]

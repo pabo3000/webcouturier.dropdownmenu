@@ -15,6 +15,9 @@ webcouturier.dropdownmenu 2.3 unreleased
 
 - fix unkown version in quickinstaller.
   [toutpt]
+  
+- Fix according plone.app.multilingual
+  [pabo3000]
 
 webcouturier.dropdownmenu 2.2 (August 17, 2011)
 -----------------------------------------------
